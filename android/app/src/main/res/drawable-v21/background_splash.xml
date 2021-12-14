@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@color/splashscreen_bg"
+    />
+
+    <!-- <item
+        android:width="120dp"
+        android:height="120dp"
+        android:drawable="@mipmap/ic_launcher"
+        android:gravity="center" 
+    /> -->
+
+    <!-- <item 
+        android:gravity="center">
+        <bitmap 
+            android:gravity="center"
+            android:src="@drawable/turbo_logo"
+        />
+    </item> -->
+
+    <item
+        android:bottom="280dp"
+        android:left="107dp"
+        android:right="107dp"
+        android:top="280dp"
+    >
+        <bitmap
+            android:gravity="fill"
+            android:src="@mipmap/digiext" />
+    </item>
+</layer-list>
